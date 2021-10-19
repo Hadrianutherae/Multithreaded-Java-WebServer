@@ -26,6 +26,10 @@ The architecture is quite straigthforward and consists of two components. First,
   <img src="https://github.com/Hadrianutherae/Multithreaded-Java-WebServer/blob/main/planning/classDiagram.png">
 </p>
 
+<p align="center">
+  <img src="https://github.com/Hadrianutherae/Multithreaded-Java-WebServer/blob/main/planning/sequence.png">
+</p>
+
 ## Java Executable
 Libraries are built along with the core of this project into a Jar Executable. The application takes two commands when it is called from the CLI, firstly the path which will be served and secondly, the port on which the server will listen. If the port is already bound to another process, an exception will be thrown and you might need to find another port, which is not bound yet.
 
