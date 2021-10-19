@@ -23,7 +23,7 @@ The MVP has the following features implemented
 The architecture is quite straigthforward and consists of two components. First, the server itself, which is managing the port, path, incoming requests and sockets, creating new Threads etc. Second, the request itself. The request object owns most of the functionality such as Mime-Type Checking, GZip transfer, Etags etc.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/Hadrianutherae/Multithreaded-Java-WebServer/blob/main/planning/classDiagram.png">
+  <img src="https://github.com/Hadrianutherae/Multithreaded-Java-WebServer/blob/main/planning/classDiagram.png">
 </p>
 
 ## Java Executable
