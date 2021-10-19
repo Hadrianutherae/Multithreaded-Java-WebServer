@@ -26,7 +26,7 @@ The architecture is quite straigthforward and consists of two components. First,
   <img src="https://github.com/Hadrianutherae/Multithreaded-Java-WebServer/blob/main/planning/classDiagram.png">
 </p>
 
-To further illustrate this, observe the following diagram. The server is booted and it starts serving a directory under a given port. Whenever a request comes to the server, the server creates a new thread and binds the incoming request to the Request Object and carries on with the serving of the directory. This way, the server can cater many more requests in parallel.
+To further illustrate this, observe the following diagram. The server is booted and it starts serving a directory under a given port. Whenever a request comes to the server, the server creates a new thread and binds the incoming request to the Request Object and carries on with the serving of the directory. This way, the server can cater many more requests in parallel and the user is being served in its own dedicated thread.
 <p align="center">
   <img src="https://github.com/Hadrianutherae/Multithreaded-Java-WebServer/blob/main/planning/sequence.png">
 </p>
