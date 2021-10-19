@@ -18,6 +18,13 @@ The MVP has the following features implemented
 
 
 
+## Java Executable
+Two commands are taken when called from the CLI, firstly the path which will be served and secondly, the port on which the server will listen. If the port is already bound to another process, an exception will be thrown and you might need to find another port, which is not bound yet.
+
+```
+java -jar uber-JavaWebServer-1.0-SNAPSHOT.jar "/" "65535"
+```
+## Docker image
 To run the docker image clone this image:
 ```
 docker pull hadrianutherae/javawebserver
