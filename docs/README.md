@@ -10,6 +10,7 @@ The code is well documented and a JavaDocs documentation is available for inspec
 The MVP has the following features implemented
 - [x] Implemented Etag functionality (If-Match, If-None-Match, If-Modified-Since)
 - [x] Implemented GZip compression for quick transfer of files
+- [x] Handling of GET and HEAD requests
 - [x] Basic Multithreading, where each new request opens up a new thread. No threadpool!
 - [x] Serving a given directory and all of its subdirectories
 - [x] Basic explorer-like interface, to navigate up and down in folders
