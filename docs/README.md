@@ -21,7 +21,7 @@ The MVP has the following features implemented
 
 ## Architecture
 The architecture is quite straigthforward and consists of two components. First, the server itself, which is managing the port, path, incoming requests and sockets, creating new Threads etc. Second, the request itself. The request object owns most of the functionality such as Mime-Type Checking, GZip transfer, Etags etc.
-
+![Simplified Class Diagram](https://github.com/hypo10use/planning/blob/main/contract.png)
 
 ## Java Executable
 Libraries are built along with the core of this project into a Jar Executable. The application takes two commands when it is called from the CLI, firstly the path which will be served and secondly, the port on which the server will listen. If the port is already bound to another process, an exception will be thrown and you might need to find another port, which is not bound yet.
