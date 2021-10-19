@@ -49,3 +49,6 @@ To run the docker image clone this image:
 docker pull hadrianutherae/javawebserver
 ```
 When running the container, make sure your ports are redirected from the container to your machine, where you want to browse from.
+
+## Copyright
+This code was solely written by myself and does not contain any copied excerpt, feel free to use it as if it was your own!
