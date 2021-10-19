@@ -24,7 +24,10 @@ Two commands are taken when called from the CLI, firstly the path which will be 
 ```
 java -jar uber-JavaWebServer-1.0-SNAPSHOT.jar "/" "65535"
 ```
-## Docker image
+## Dockerfile and image
+
+You can directly create your own Docker container by running the supplied dockerfile or alternatively, you may access a prebuilt image down below.
+
 To run the docker image clone this image:
 ```
 docker pull hadrianutherae/javawebserver
