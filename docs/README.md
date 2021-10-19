@@ -31,8 +31,11 @@ To further illustrate this, observe the following diagram. The server is booted 
   <img src="https://github.com/Hadrianutherae/Multithreaded-Java-WebServer/blob/main/planning/sequence.png">
 </p>
 
+## Maven Pom
+The project is using Maven to manage its dependencies. The Pom file includes all of the used dependencies and contains all generation parameters. The Maven Lifecycles for compiling, testing, and packaging were used throughout this project.
+
 ## Java Executable
-Libraries are built along with the core of this project into a Jar Executable. The application takes two commands when it is called from the CLI, firstly the path which will be served and secondly, the port on which the server will listen. If the port is already bound to another process, an exception will be thrown and you might need to find another port, which is not bound yet.
+Libraries are built along with the core of this project into a Jar Executable to make it easier to run in a docker container. The application takes two commands when it is called from the CLI, firstly the path which will be served and secondly, the port on which the server will listen. If the port is already bound to another process, an exception will be thrown and you might need to find another port, which is not bound yet.
 
 ```
 java -jar uber-JavaWebServer-1.0-SNAPSHOT.jar "/" "65535"
