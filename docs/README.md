@@ -3,7 +3,7 @@
 Welcome, this repo hosts a webserver purelay implemented in Java without relying heavily on preexisting libraries or frameworks. The aim of this exercise was to setup a whole end-to-end project in Java 8 and thereby ensuring that key technical features such as Etag, GZip, Mime-Types are implemented. Furthermore basic multithreading was implemented to allow users to access the server simultaneously.
 
 The code is well documented and a JavaDocs documentation is available for inspection here
-[Javadocs](https://hadrianutherae.github.io/Multithreaded-Java-WebServer/)   
+[Javadocs](https://hadrianutherae.github.io/Multithreaded-Java-WebServer/).
 
 
 ## MVP build
